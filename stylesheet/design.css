@@ -42,7 +42,7 @@ body {
 .bar-right {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
 }
 
 .bar-right span {
@@ -51,8 +51,9 @@ body {
 }
 
 .cart-icon {
-    width: 24px;
-    height: 24px;
+    width: 21px;
+    height: 21px;
+
 }
 
 
