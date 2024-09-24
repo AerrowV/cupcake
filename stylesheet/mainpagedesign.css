@@ -138,3 +138,13 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+
+/*option {
+    text-align: center;
+
+}*/
+
+.bar-links a:hover {
+    color: #6666;
+}
