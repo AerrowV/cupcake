@@ -29,10 +29,6 @@ body {
     gap: 20px;
 }
 
-.bar-links li {
-    display: inline;
-}
-
 .bar-links a {
     text-decoration: none;
     color: #666;
