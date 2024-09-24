@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Cupcake</title>
+    <link rel="stylesheet" href="stylesheet/design.css">
+</head>
+<body>
+
+
+<header>
+    <img src="image/cupcakelogo.png">
+</header>
+
+<div class="bar">
+    <ul class="bar-links">
+        <li><a href="#">Ordre</a></li>
+        <li><a href="#">Kunder</a></li>
+    </ul>
+    <div class="bar-right">
+        <span>jobe@cphbusiness.dk</span>
+        <a href="cart.html">
+            <img src="image/cart.png" class="cart-icon" alt="Cart Icon">
+        </a>
+    </div>
+</div>
+
+<h1>Velkommen ombord</h1>
+<p>Øens bedste cupcakes. Vælg og bestil her:</p>
+
+<form action="#">
+
+    <div class="form-group">
+        <label for="bund">Vælg bund:</label>
+        <select id="bund" name="bund">
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="red-velvet">Red Velvet</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="topping">Vælg topping:</label>
+        <select id="topping" name="topping">
+            <option value="strawberry">Strawberry</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="cream-cheese">Cream Cheese</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="antal">Vælg antal:</label>
+        <select id="antal" name="antal">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+
+    <button type="submit">Læg i kurv</button>
+</form>
+</body>
+</html>
